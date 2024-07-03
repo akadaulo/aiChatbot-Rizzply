@@ -207,17 +207,24 @@ h1 {
     max-width: 80%;
 }
 
-.bot-message {
-    background-color: #e6e6e6;
-    align-self: flex-start;
+.message {
+    color: black;
+    margin-bottom: 10px;
 }
-
-.user-message {
-    background-color: #0084ff;
-    color: white;
-    align-self: flex-end;
+.user {
+    text-align: right;
 }
-
+.bot {
+    text-align: left;
+}
+@media (max-width: 767px) {
+    .chat-box {
+        width: 100%;
+    }
+    input[type="text"] {
+        width: 60%;
+    }
+} 
 input[type="text"] {
     padding: 10px;
     border: 1px solid #ccc;
