@@ -138,17 +138,47 @@ button:hover {
     }
 } 
 */
-
-
-
 body {
+    background-color : rgb(48, 44, 49); 
+    color : white;
+    font-size : 1.5em;
     font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f0f0f0;
     margin: 0;
+    padding: 0;
+}
+header {
+    background-color: rgb(48, 44, 49);
+    color: white; 
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+nav {
+    width: 100%;
+    margin: auto;
+    
+ul {
+    list-style-type: none;
+    display: inline;
+    justify-content: center;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+}   
+
+    a {
+    display: block;
+    padding: 8px;
+    background-color: white;
+    }
+}
+h1 {
+    margin-left: 8em;
+    margin-right: 9em;
+    color: transparent;
+    font-size: 2em;
+    height: 1em;
+    text-align: center;
+    position: relative;
 }
 
 .chat-container {
